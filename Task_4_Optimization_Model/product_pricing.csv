@@ -1,0 +1,6 @@
+Product_ID,Base_Price,Price_Elasticity,Current_Demand,Lower_Price_Bound,Upper_Price_Bound,Cost_Price
+P001,100,-0.5,500,80,120,60
+P002,150,-0.7,300,120,180,100
+P003,200,-0.4,200,180,220,120
+P004,250,-0.6,150,220,270,150
+P005,300,-0.3,100,250,350,180

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reek Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+               <h1>Reek Recommendations</h1>
+    </header>
+
+    <main>
+        <form method="POST" class="search-form">
+            <input type="text" name="movie" placeholder="Enter a movie title" required>
+            <button type="submit">Recommend</button>
+        </form>
+
+        {% if recommendations %}
+        <section class="recommendations">
+            <h2>Recommended Movies</h2>
+            <div class="movie-row">
+                {% for rec in recommendations %}
+                <div class="movie-card">
+                    <img src="{{ url_for('static', filename='images/default-poster.jpg') }}" alt="{{ rec }}">
+                    <p>{{ rec }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+    </main>
+</body>
+</html>
