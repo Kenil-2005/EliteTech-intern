@@ -137,12 +137,3 @@ As I continue to develop my skills, there are several areas I plan to explore:
 ## Conclusion
 
 This internship at EliteTech has been an excellent opportunity to apply my skills in data science, machine learning, and optimization. It allowed me to work on real-world business problems, develop end-to-end solutions, and deploy them in production environments. The insights gained from each task have significantly contributed to my growth as a data scientist, and I look forward to leveraging these skills in future projects.
-
----
-
-Feel free to reach out for any further questions or clarifications.
-
-**Contact Information**:  
-VEMURU VINAY
-www.linkedin.com/in/vemuru-vinay-569655277
-vemuruvinayreddy@gmail.com 
